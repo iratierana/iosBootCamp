@@ -2,5 +2,6 @@ language: swift
 xcode_project: prova.xcodeproj
 xcode_scheme: provaTest
 script:
+- bundler install
 - fastlane build
 - fastlane provaTest

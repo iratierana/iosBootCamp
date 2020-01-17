@@ -3,5 +3,5 @@ xcode_project: prova.xcodeproj
 xcode_scheme: provaTest
 script:
 - bundler install
+- fastlane hola
 - fastlane build
-- fastlane pepito

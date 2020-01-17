@@ -18,8 +18,4 @@ platform :ios do
     run_tests()
     # add actions here: https://docs.fastlane.tools/actions
   end
-  lane :pepito do
-    print("hola com estas?")
-    # add actions here: https://docs.fastlane.tools/actions
-  end
 end

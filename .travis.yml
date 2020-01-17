@@ -1,0 +1,6 @@
+language: swift
+xcode_project: prova.xcodeproj
+xcode_scheme: provaTest
+script:
+- fastlane build
+- fastlane provaTest

@@ -4,4 +4,4 @@ xcode_scheme: provaTest
 script:
 - bundler install
 - fastlane build
-- fastlane provaTest
+- fastlane pepito

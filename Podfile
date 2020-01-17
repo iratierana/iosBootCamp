@@ -1,17 +1,25 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'prova' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+update_fastlane
+cocoapods
 
-  # Pods for prova
-
-  pod 'ProgressHUD'
-
-  target 'provaTests' do
-    inherit! :search_paths
-    # Pods for testing
+default_platform(:ios)
+platform :ios do
+  desc "Description of what the lane does"
+  lane :build do
+    gym(
+	skip_codesigning: true,
+        skip_archive: true
+    )
+    hola
   end
-
+  lane :hola do
+    run_tests()
+    # add actions here: https://docs.fastlane.tools/actions
+  end
+  lane :pepito do
+    print("hola com estas?")
+    # add actions here: https://docs.fastlane.tools/actions
+  end
 end

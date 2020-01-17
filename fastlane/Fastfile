@@ -14,6 +14,10 @@
 update_fastlane
 cocoapods
 
+before_all do
+  ENV[“SLACK_URL”] = ENV[“team_slack_url”]
+end
+
 default_platform(:ios)
 
 platform :ios do

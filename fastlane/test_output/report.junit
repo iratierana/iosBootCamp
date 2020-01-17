@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='provaTests.xctest' tests='2' failures='0'>
+  <testsuite name='provaTests.provaTests' tests='2' failures='0'>
+    <testcase classname='provaTests.provaTests' name='testExample' time='0.001'/>
+    <testcase classname='provaTests.provaTests' name='testPerformanceExample' time='0.316'/>
+  </testsuite>
+</testsuites>
